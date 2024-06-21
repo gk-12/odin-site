@@ -38,8 +38,8 @@ body {
 
 .section-1{
     background: #1f2937;
-    max-height: 500px;
-    min-height: 500px;
+    max-height: 450px;
+    min-height: 450px;
     width: 100%;
 }
 
@@ -70,7 +70,7 @@ body {
     height: 200px;
 }
 
-button {
+.first-button {
     background: #3882f6;
     color: #f9faf8;
     border: none;
@@ -79,6 +79,12 @@ button {
     height: 13%;
     margin-top: 10px;
     cursor: pointer;
+}
+
+button:hover {
+    background: white;
+    color: #3882f6;
+    transition-duration: 0.6s;
 }
 
 .section-2 {
@@ -131,6 +137,51 @@ button {
 }
 
 .elon {
-    margin: 200px 0 0 0;
+    margin: 200px 0 0 -200px;
     font-weight: bolder;
+}
+
+.section-4 {
+    min-height: 400px;
+    max-height: 400px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 900px;
+    height: 150px;
+    background: #3382f6;
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2%;
+}
+ 
+.sign-text {
+    margin-left: 100px;
+}
+
+.second-button{
+    background: #3382f6;
+    border: 1px solid white;
+    width: 100px;
+    height: 30px;
+    margin: -30px 0 0 700px;
+    border-radius: 5px;
+}
+
+.footer-style {
+    max-height: 100px;
+    min-height: 100px;
+    background: #1f2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
